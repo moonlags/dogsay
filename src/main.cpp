@@ -5,7 +5,6 @@
 #include <cstring>
 
 int main(int argc,char* argv[]){
-    //Usage: dogsay.exe text
     if(argc!=2){
         std::cout << "Usage: dogsay.exe text";
         return 0;
@@ -44,9 +43,9 @@ int main(int argc,char* argv[]){
     }
 
     std::cout <<" ";
-    for(int i=0;i<count;++i){
+    for (int i = 0; i < count; ++i)
         std::cout << "-";
-    }
+
 
     std::cout << "\n";
     std::cout <<"      \\      _^__^                      .-.\n"
